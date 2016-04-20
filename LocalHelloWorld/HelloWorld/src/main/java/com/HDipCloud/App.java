@@ -12,6 +12,6 @@ public class App {
 
 		ApplicationContext context = new ClassPathXmlApplicationContext("configuration.xml");
 		HelloWorld helloWorld = (HelloWorld) context.getBean("helloWorld");
-		helloWorld.sayHello();
+		helloWorld.sayHello();  
 	}
 }
